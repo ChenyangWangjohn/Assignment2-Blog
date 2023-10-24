@@ -1,4 +1,5 @@
 import React from "react";
+import './subpage.css';
 
 const Title = ({title}) => {
     return <h1>{title}</h1>
