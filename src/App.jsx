@@ -1,8 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import japan from './japan.jsx'
+
+
+// Import the components
+import Home from './Homepage';
+import Japan from './Japan';
+import China from './China';
+
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,17 +15,18 @@ import {
 const router = createBrowserRouter([
   {
   path: "/",
-  element: <div>This is the Home Page</div>,
+  element: <Home />,
   },
 
   {
     path: "/Japan",
-    component:{japan}
+
+    element: <Japan />,
   },
 
   {
     path: "/China",
-    element: <h1>China</h1>,
+    element: <China />,
   },
 ]);
 
