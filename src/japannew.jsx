@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-
-
+// sample code is here
 const MainContainer = styled.div`
     display: flex;
     background-color: #FFEFD5;
@@ -45,7 +44,7 @@ const ImageDiv = styled.div`
 `;
 
 
-const Home = () => {
+const Jaapan = () => {
     return (
         <MainContainer>
             <LeftContainer>
@@ -70,4 +69,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Jaapan;
