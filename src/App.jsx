@@ -1,6 +1,5 @@
 import './App.css'
 
-
 // Import the components
 import Home from './Homepage';
 import Japan from './Japan';
