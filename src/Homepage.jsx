@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 const MainContainer = styled.div`
     display: flex;
     background-color: #FFEFD5;
