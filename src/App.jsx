@@ -3,7 +3,7 @@ import './App.css'
 // Import the components
 import Home from './Homepage';
 import China from './China';
-import Jaapan from './japannew';
+import Japan from './japannew';
 
 
 import {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 
   {
     path: "/Japan",
-    element: <Jaapan />,
+    element: <Japan />,
   },
 
   {
