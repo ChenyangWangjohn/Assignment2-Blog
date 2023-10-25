@@ -35,7 +35,9 @@ const ImageDiv = styled.div`
 const Content = styled.div`
     Padding = 20px;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 `;
 
 

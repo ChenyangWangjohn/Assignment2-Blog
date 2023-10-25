@@ -63,7 +63,7 @@ const Home = () => {
             <RightContainer>
                 <h2>Mizuho & John&apos;s Food Guide</h2>
                 <h1>Chinese & Japaese Cuisine</h1>
-                <p>Read about our recommendations of Restaurants :)</p>
+                <p>Read about our thoughts/recommendations about food from different cultures :)</p>
             </RightContainer>
         </MainContainer>
 
